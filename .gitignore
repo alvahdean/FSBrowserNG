@@ -8,3 +8,5 @@ __vm/
 *.vcxitems.user
 **/*.vcxproj.user
 **/*.vcxitems.user
+
+*.user
