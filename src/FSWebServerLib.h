@@ -9,13 +9,19 @@
     #include "WProgram.h"
 #endif
 
+#if defined(ESP8266)
 #include <ESP8266WiFi.h>
+#include <ESP8266mDNS.h>
+#elif defined (ESP32)
+#else 
+#error Invalid platform, only ESP8266/ESP32 supported
+#endif
+
 #include <WiFiClient.h>
 #include <TimeLib.h>
 #include <NtpClientLib.h>
 #include <ESPAsyncTCP.h>
 #include <ESPAsyncWebServer.h>
-#include <ESP8266mDNS.h>
 #include <FS.h>
 #include <Ticker.h>
 #include <ArduinoOTA.h>
