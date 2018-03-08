@@ -699,7 +699,7 @@ bool AsyncFSWebServer::handleFileRead(String path, AsyncWebServerRequest *reques
         flashLED(CONNECTION_LED, 1, 25); // Show activity on LED
     }
     if (path.endsWith("/"))
-        path += "index.htm";
+        path += "index.html";
     String contentType = getContentType(path, request);
     String pathWithGz = path + ".gz";
     if (_fs->exists(pathWithGz) || _fs->exists(path)) {
