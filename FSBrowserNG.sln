@@ -1,0 +1,72 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2026
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ESPAsyncWebServer", "..\ESPAsyncWebServer\ESPAsyncWebServer.vcxitems", "{2FD4E848-A309-427E-AD84-0EB8A9905554}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Time", "..\Time\Time.vcxitems", "{202122B0-BF15-4EA0-AD86-85B62BA20B32}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Libraries", "Libraries", "{3250D6E4-EE8A-4B29-B16E-EE9F3EB87AF0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Contrib", "Contrib", "{91D9DDAD-49F5-4A13-B4FF-3AA8E2B6EC8B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Examples", "Examples", "{6564D48C-E92D-4B7D-B469-3758DEEAF2E9}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "UserConfigExample", "examples\UserConfigExample\UserConfigExample.vcxproj", "{C5F80730-F44F-4478-BDAE-6634EFC2CA88}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "StartHere", "examples\StartHere\StartHere.vcxproj", "{B456698B-2633-4C8D-A42A-B5CABC0D8DE6}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Callback_example", "examples\Callback_example\Callback_example.vcxproj", "{D24B2CDD-B954-4F44-A627-95BE51429505}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FSBrowserNG", "FSBrowserNG.vcxitems", "{12980073-8D50-4302-8734-8637E2BA6D5F}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		FSBrowserNG.vcxitems*{12980073-8d50-4302-8734-8637e2ba6d5f}*SharedItemsImports = 9
+		..\Time\Time.vcxitems*{202122b0-bf15-4ea0-ad86-85b62ba20b32}*SharedItemsImports = 9
+		..\ESPAsyncWebServer\ESPAsyncWebServer.vcxitems*{2fd4e848-a309-427e-ad84-0eb8a9905554}*SharedItemsImports = 9
+		..\ESPAsyncWebServer\ESPAsyncWebServer.vcxitems*{b456698b-2633-4c8d-a42a-b5cabc0d8de6}*SharedItemsImports = 4
+		FSBrowserNG.vcxitems*{b456698b-2633-4c8d-a42a-b5cabc0d8de6}*SharedItemsImports = 4
+		..\Time\Time.vcxitems*{b456698b-2633-4c8d-a42a-b5cabc0d8de6}*SharedItemsImports = 4
+		..\ESPAsyncWebServer\ESPAsyncWebServer.vcxitems*{c5f80730-f44f-4478-bdae-6634efc2ca88}*SharedItemsImports = 4
+		FSBrowserNG.vcxitems*{c5f80730-f44f-4478-bdae-6634efc2ca88}*SharedItemsImports = 4
+		..\Time\Time.vcxitems*{c5f80730-f44f-4478-bdae-6634efc2ca88}*SharedItemsImports = 4
+		..\ESPAsyncWebServer\ESPAsyncWebServer.vcxitems*{d24b2cdd-b954-4f44-a627-95be51429505}*SharedItemsImports = 4
+		FSBrowserNG.vcxitems*{d24b2cdd-b954-4f44-a627-95be51429505}*SharedItemsImports = 4
+		..\Time\Time.vcxitems*{d24b2cdd-b954-4f44-a627-95be51429505}*SharedItemsImports = 4
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C5F80730-F44F-4478-BDAE-6634EFC2CA88}.Debug|x86.ActiveCfg = Debug|Win32
+		{C5F80730-F44F-4478-BDAE-6634EFC2CA88}.Debug|x86.Build.0 = Debug|Win32
+		{C5F80730-F44F-4478-BDAE-6634EFC2CA88}.Release|x86.ActiveCfg = Release|Win32
+		{C5F80730-F44F-4478-BDAE-6634EFC2CA88}.Release|x86.Build.0 = Release|Win32
+		{B456698B-2633-4C8D-A42A-B5CABC0D8DE6}.Debug|x86.ActiveCfg = Debug|Win32
+		{B456698B-2633-4C8D-A42A-B5CABC0D8DE6}.Debug|x86.Build.0 = Debug|Win32
+		{B456698B-2633-4C8D-A42A-B5CABC0D8DE6}.Release|x86.ActiveCfg = Release|Win32
+		{B456698B-2633-4C8D-A42A-B5CABC0D8DE6}.Release|x86.Build.0 = Release|Win32
+		{D24B2CDD-B954-4F44-A627-95BE51429505}.Debug|x86.ActiveCfg = Debug|Win32
+		{D24B2CDD-B954-4F44-A627-95BE51429505}.Debug|x86.Build.0 = Debug|Win32
+		{D24B2CDD-B954-4F44-A627-95BE51429505}.Release|x86.ActiveCfg = Release|Win32
+		{D24B2CDD-B954-4F44-A627-95BE51429505}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2FD4E848-A309-427E-AD84-0EB8A9905554} = {91D9DDAD-49F5-4A13-B4FF-3AA8E2B6EC8B}
+		{202122B0-BF15-4EA0-AD86-85B62BA20B32} = {91D9DDAD-49F5-4A13-B4FF-3AA8E2B6EC8B}
+		{91D9DDAD-49F5-4A13-B4FF-3AA8E2B6EC8B} = {3250D6E4-EE8A-4B29-B16E-EE9F3EB87AF0}
+		{C5F80730-F44F-4478-BDAE-6634EFC2CA88} = {6564D48C-E92D-4B7D-B469-3758DEEAF2E9}
+		{B456698B-2633-4C8D-A42A-B5CABC0D8DE6} = {6564D48C-E92D-4B7D-B469-3758DEEAF2E9}
+		{D24B2CDD-B954-4F44-A627-95BE51429505} = {6564D48C-E92D-4B7D-B469-3758DEEAF2E9}
+		{12980073-8D50-4302-8734-8637E2BA6D5F} = {3250D6E4-EE8A-4B29-B16E-EE9F3EB87AF0}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BC0BCA25-7583-4900-955F-D8612A4CE162}
+	EndGlobalSection
+EndGlobal

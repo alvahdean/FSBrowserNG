@@ -1,9 +1,9 @@
 **/config.json*
-.vs
-
-*.vcx*
 Release/
 Debug/
 __vm/
 .vs/
 *.sln
+*.vcxproj.user
+
+
