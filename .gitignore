@@ -2,8 +2,9 @@
 Release/
 Debug/
 __vm/
+**/__vm/
 .vs/
-*.sln
 *.vcxproj.user
-
-
+*.vcxitems.user
+**/*.vcxproj.user
+**/*.vcxitems.user

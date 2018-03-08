@@ -18,6 +18,21 @@
   </ItemGroup>
   <ItemGroup>
     <!-- <ClInclude Include="$(MSBuildThisFileDirectory)FSBrowserNG.h" /> -->
+    <None Include="$(MSBuildThisFileDirectory)data\admin.html" />
+    <None Include="$(MSBuildThisFileDirectory)data\config.html" />
+    <None Include="$(MSBuildThisFileDirectory)data\edit.html" />
+    <None Include="$(MSBuildThisFileDirectory)data\general.html" />
+    <None Include="$(MSBuildThisFileDirectory)data\graphs.js.gz" />
+    <None Include="$(MSBuildThisFileDirectory)data\index.html">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)data\info.html" />
+    <None Include="$(MSBuildThisFileDirectory)data\microajax.js" />
+    <None Include="$(MSBuildThisFileDirectory)data\ntp.html" />
+    <None Include="$(MSBuildThisFileDirectory)data\spark-md5.js" />
+    <None Include="$(MSBuildThisFileDirectory)data\style.css" />
+    <None Include="$(MSBuildThisFileDirectory)data\system.html" />
+    <None Include="$(MSBuildThisFileDirectory)data\update.html" />
     <None Include="$(MSBuildThisFileDirectory)library.json" />
     <None Include="$(MSBuildThisFileDirectory)LICENSE.md" />
     <None Include="$(MSBuildThisFileDirectory)README.md" />
@@ -27,5 +42,8 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="$(MSBuildThisFileDirectory)src\FSWebServerLib.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="$(MSBuildThisFileDirectory)data\favicon.ico" />
   </ItemGroup>
 </Project>

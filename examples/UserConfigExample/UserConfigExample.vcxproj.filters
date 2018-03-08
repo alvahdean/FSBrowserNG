@@ -13,8 +13,60 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="WebContent">
+      <UniqueIdentifier>{f7fb0a65-b65e-4a01-b452-de9a73659609}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <None Include="UserConfigExample.ino" />
+    <None Include="data\admin.html">
+      <Filter>WebContent</Filter>
+    </None>
+    <None Include="data\config.html">
+      <Filter>WebContent</Filter>
+    </None>
+    <None Include="data\edit.html">
+      <Filter>WebContent</Filter>
+    </None>
+    <None Include="data\general.html">
+      <Filter>WebContent</Filter>
+    </None>
+    <None Include="data\graphs.js.gz">
+      <Filter>WebContent</Filter>
+    </None>
+    <None Include="data\index.html">
+      <Filter>WebContent</Filter>
+    </None>
+    <None Include="data\info.html">
+      <Filter>WebContent</Filter>
+    </None>
+    <None Include="data\microajax.js">
+      <Filter>WebContent</Filter>
+    </None>
+    <None Include="data\ntp.html">
+      <Filter>WebContent</Filter>
+    </None>
+    <None Include="data\spark-md5.js">
+      <Filter>WebContent</Filter>
+    </None>
+    <None Include="data\style.css">
+      <Filter>WebContent</Filter>
+    </None>
+    <None Include="data\system.html">
+      <Filter>WebContent</Filter>
+    </None>
+    <None Include="data\update.html">
+      <Filter>WebContent</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="__vm\.UserConfigExample.vsarduino.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="data\favicon.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
   </ItemGroup>
 </Project>

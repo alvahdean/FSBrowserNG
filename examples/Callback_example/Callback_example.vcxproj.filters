@@ -17,4 +17,9 @@
   <ItemGroup>
     <None Include="Callback_example.ino" />
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="__vm\.Callback_example.vsarduino.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
 </Project>

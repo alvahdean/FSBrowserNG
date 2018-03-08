@@ -9,14 +9,62 @@
       <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
       <Extensions>h;hh;hpp;hxx</Extensions>
     </Filter>
+    <Filter Include="Web Content">
+      <UniqueIdentifier>{416a3478-17de-4f1a-a9ac-ba32e65e817f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arduino Library Metadata">
+      <UniqueIdentifier>{81ac1d75-f63b-4bb0-8b94-c6467900431a}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <Text Include="$(MSBuildThisFileDirectory)library.properties" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="$(MSBuildThisFileDirectory)library.json" />
-    <None Include="$(MSBuildThisFileDirectory)LICENSE.md" />
-    <None Include="$(MSBuildThisFileDirectory)README.md" />
+    <None Include="$(MSBuildThisFileDirectory)data\admin.html">
+      <Filter>Web Content</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)data\config.html">
+      <Filter>Web Content</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)data\edit.html">
+      <Filter>Web Content</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)data\general.html">
+      <Filter>Web Content</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)data\graphs.js.gz">
+      <Filter>Web Content</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)data\index.html">
+      <Filter>Web Content</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)data\info.html">
+      <Filter>Web Content</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)data\microajax.js">
+      <Filter>Web Content</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)data\ntp.html">
+      <Filter>Web Content</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)data\spark-md5.js">
+      <Filter>Web Content</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)data\style.css">
+      <Filter>Web Content</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)data\system.html">
+      <Filter>Web Content</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)data\update.html">
+      <Filter>Web Content</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)library.json">
+      <Filter>Arduino Library Metadata</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)LICENSE.md">
+      <Filter>Arduino Library Metadata</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)README.md">
+      <Filter>Arduino Library Metadata</Filter>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="$(MSBuildThisFileDirectory)src\FSWebServerLib.cpp">
@@ -27,5 +75,15 @@
     <ClInclude Include="$(MSBuildThisFileDirectory)src\FSWebServerLib.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="$(MSBuildThisFileDirectory)data\favicon.ico">
+      <Filter>Web Content</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="$(MSBuildThisFileDirectory)library.properties">
+      <Filter>Arduino Library Metadata</Filter>
+    </Text>
   </ItemGroup>
 </Project>
