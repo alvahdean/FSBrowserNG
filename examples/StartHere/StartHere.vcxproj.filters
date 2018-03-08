@@ -13,13 +13,60 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Web Content">
+      <UniqueIdentifier>{56213fd6-edac-44f3-9ec8-75ed4f2d64bc}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <None Include="StartHere.ino" />
+    <None Include="data\admin.html">
+      <Filter>Web Content</Filter>
+    </None>
+    <None Include="data\config.html">
+      <Filter>Web Content</Filter>
+    </None>
+    <None Include="data\edit.html">
+      <Filter>Web Content</Filter>
+    </None>
+    <None Include="data\general.html">
+      <Filter>Web Content</Filter>
+    </None>
+    <None Include="data\graphs.js.gz">
+      <Filter>Web Content</Filter>
+    </None>
+    <None Include="data\info.html">
+      <Filter>Web Content</Filter>
+    </None>
+    <None Include="data\microajax.js">
+      <Filter>Web Content</Filter>
+    </None>
+    <None Include="data\ntp.html">
+      <Filter>Web Content</Filter>
+    </None>
+    <None Include="data\spark-md5.js">
+      <Filter>Web Content</Filter>
+    </None>
+    <None Include="data\style.css">
+      <Filter>Web Content</Filter>
+    </None>
+    <None Include="data\system.html">
+      <Filter>Web Content</Filter>
+    </None>
+    <None Include="data\update.html">
+      <Filter>Web Content</Filter>
+    </None>
+    <None Include="data\index.html">
+      <Filter>Web Content</Filter>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="__vm\.StartHere.vsarduino.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="data\favicon.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
   </ItemGroup>
 </Project>
